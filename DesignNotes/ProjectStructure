@@ -1,0 +1,23 @@
+Backend
+    Data
+        Maze form
+            Boolean matrix style format representing filled/unfilled spaces
+        Data structure for maze data
+            //ArrayList<ArrayList<Boolean>>
+            Maze
+                Map<Point, Boolean>
+                Dimensions
+        Data structure for paths through mazes
+
+    Data manipulation
+        pathfinding algorithms
+        Fixed Mazes
+            -stretch goal: user input maze, random generation maze
+
+Frontend
+    Use React
+
+    Interface
+        User input to design the mazes
+
+
