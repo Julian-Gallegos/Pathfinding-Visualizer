@@ -7,17 +7,24 @@ Backend
             Maze
                 Map<Point, Boolean>
                 Dimensions
-        Data structure for paths through mazes
+        Data structure for searched paths through mazes
+            ArrayList<Point>, points in the order that they were visited to find critical path
+
 
     Data manipulation
         pathfinding algorithms
+            BFS, DFS, A*, Dijkstra, RCT Hedge maze algorithm, ect.......
         Fixed Mazes
             -stretch goal: user input maze, random generation maze
 
 Frontend
     Use React
-
+        connecting to a server running java data backend
     Interface
         User input to design the mazes
-
+        Data for each pathfinding method
+            Steps taken/number of cells traversed
+            Length of discovered path
+            Runtime - definitely not stretch :)
+            Animation of path being explored and then final critical path displayed, displayed when selected by user
 
